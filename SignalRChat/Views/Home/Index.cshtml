@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    username:
+    <input type="text" id="userInput" />
+</div>
+<div class="row">
+    Message:
+    <input type="text" id="messageInput" />
+    <button id="sendButton">Skicka</button>
+</div>
+<div class="row">
+    <ul id="messageList"></ul>
+</div>
+
+<script src="~/lib/signalr/signalr.js" ></script>
+<script src="~/lib/chat.js"></script>
